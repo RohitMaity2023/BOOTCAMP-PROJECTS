@@ -1,0 +1,93 @@
+.box {
+    width:500px;
+    height:300px;
+    background-color: rgba(220, 241, 245, 0.763);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;;
+
+
+}
+.mainContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.header {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+
+}
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.header1{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.hidden{
+    display:none;
+}
+.weather-info {
+  text-shadow: 1px 1px 4px rgba(10, 9, 9, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-video {
+  transition: opacity 1s ease;
+}
+.forecast-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
