@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Song Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🎵 Guess the Song 🎵</h1>
+    <div id="question-box">
+      <div id="question">Loading...</div>
+      <div id="options"></div>
+      <button id="next-btn" disabled>Next</button>
+      <div id="progress"></div>
+    </div>
+    <div id="result-box" class="hidden">
+      <h2>Your Score: <span id="score"></span></h2>
+      <button onclick="restartQuiz()">Play Again</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
